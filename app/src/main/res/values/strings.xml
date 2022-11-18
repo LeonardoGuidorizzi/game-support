@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">game-support</string>
+    <string name="text_Welcome">Welcome!</string>
+    <string name="text_Login">Login</string>
+
+    <string-array name="consoles">
+
+        <item>Playstation 5</item>
+        <item>Nintendo Switch</item>
+        <item>Xbox seriesX</item>
+        <item>Playstation 4</item>
+        <item>Nintendo WII</item>
+        <item>Xbox one</item>
+
+    </string-array>
+</resources>
+
