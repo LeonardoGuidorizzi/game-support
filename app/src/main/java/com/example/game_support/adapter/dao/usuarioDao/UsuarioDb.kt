@@ -5,10 +5,9 @@ import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 import com.example.game_support.adapter.dao.consoleDao.ConsoleDao
-import java.io.Usuario
 
 
-@Database(entities = [Usuario::class], version = 1)
+@Database(entities = [UsuarioDb::class], version = 1)
 abstract class UsuarioDb: RoomDatabase() {
 
     abstract fun UsuarioDao(): ConsoleDao
