@@ -1,24 +1,25 @@
-package com.example.game_support.adapter.dao.consoleDao
+package com.example.game_support.usuarioDao
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import java.io.Console
+import com.example.game_support.consoleDao.ConsoleDao
 
-@Database(entities = [Console::class], version = 1)
-abstract class ConsoleDb: RoomDatabase() {
 
-    abstract fun contactDao(): ConsoleDao
+@Database(entities = [UsuarioDb::class], version = 1)
+abstract class UsuarioDb: RoomDatabase() {
+
+    abstract fun UsuarioDao(): ConsoleDao
 
     companion object {
-        private lateinit var instance: ConsoleDb
+        private lateinit var instance: UsuarioDb
 
-        fun getDatabase(context: Context): ConsoleDb {
+        fun getDatabase(context: Context): UsuarioDb {
             if (!::instance.isInitialized) {
                 instance = Room.databaseBuilder(
                     context,
-                    ConsoleDb::class.java,
+                    UsuarioDb::class.java,
                     "db_contact_book"
                 ).allowMainThreadQueries().build()
             }

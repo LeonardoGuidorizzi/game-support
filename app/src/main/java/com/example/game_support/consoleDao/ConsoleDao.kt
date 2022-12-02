@@ -1,7 +1,7 @@
-package com.example.game_support.adapter.dao.consoleDao
+package com.example.game_support.consoleDao
 
 import androidx.room.*
-import com.example.game_support.adapter.model.console
+import com.example.game_support.model.console
 import java.io.Console
 
 @Dao

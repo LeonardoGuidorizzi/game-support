@@ -1,4 +1,4 @@
-package com.example.game_support.adapter.model
+package com.example.game_support.model
 
 import android.graphics.Bitmap
 import androidx.room.ColumnInfo

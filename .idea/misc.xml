@@ -19,9 +19,11 @@
         <entry key="app/src/main/res/drawable/profile_content.xml" value="0.4495" />
         <entry key="app/src/main/res/drawable/profilebar.xml" value="0.4495" />
         <entry key="app/src/main/res/drawable/retangle.xml" value="0.4495" />
-        <entry key="app/src/main/res/layout/account.xml" value="0.575" />
+        <entry key="app/src/main/res/layout/account.xml" value="0.55" />
         <entry key="app/src/main/res/layout/activity_create_anew_account.xml" value="0.5257936507936508" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.5765398550724637" />
+        <entry key="app/src/main/res/layout/card_view_game.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/cardviwegame.xml" value="0.16843971631205673" />
         <entry key="app/src/main/res/menu/menu.xml" value="0.5911458333333334" />
       </map>
     </option>

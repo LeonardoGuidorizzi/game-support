@@ -1,4 +1,4 @@
-package com.example.game_support.adapter.model
+package com.example.game_support.model
 
 enum class NiveisEnum {
     INICIAL,
